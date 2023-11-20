@@ -1,4 +1,4 @@
-For the Classical Molecular Dynamics (MD) and Free Energy Perturbation (FEP) calculation, separate directories are utiliaed. The directories starting with "FEP" specifically correspond to the free energy perturbation calculation for the a particular mutation. We have provided files for Alanine (FEP_T113A) and Glycine (FEP_L107G) mutations in two separate dircetories.
+For the Classical Molecular Dynamics (MD) and Free Energy Perturbation (FEP) calculation, separate directories are utilized. The directories starting with "FEP" specifically correspond to the free energy perturbation calculation for the a particular mutation. We have provided files for Alanine (FEP_T113A) and Glycine (FEP_L107G) mutations in two separate dircetories.
 
 ######################################
 Classical MD directory
