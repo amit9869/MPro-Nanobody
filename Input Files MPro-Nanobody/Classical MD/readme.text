@@ -1,0 +1,20 @@
+######################################
+Classical MD directory
+######################################
+ionized1.pdb; reference coordinates for the MPro-Nanobody complex
+
+ionized1.psf; contains partial charges of each atom for the MPro-Nanobody complex
+
+
+par_all36_na_ion_wat.prm; water parameters
+
+par_all36_prot.prm; protein parameters
+
+
+setup.namd; NAMD ADJUSTABLE PARAMETERS
+
+** use setup.namd file to run the classical MD simulation of the MPro-Nanobody complex
+
+
+
+

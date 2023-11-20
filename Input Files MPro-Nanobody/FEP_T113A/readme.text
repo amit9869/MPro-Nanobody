@@ -1,0 +1,24 @@
+######################################
+FEP_T113A directory (Alanine Mutation)
+######################################
+equil.coor;coordinates for the MPro-Nanobody/T113A complex
+equil.vel; velocity from the previously equilibrated step
+
+T113A.fep; reference coordinates for FEP calculation
+
+T113A.psf; contains partial charges of each atom for the MPro-Nanobody/T113A complex
+
+
+par_all36_na_ion_wat.prm; water parameters
+
+par_all36_prot.prm; protein parameters
+
+
+forward.namd; NAMD ADJUSTABLE PARAMETERS for fowarad  transformation
+backward.namd; NAMD ADJUSTABLE PARAMETERS for fowarad  transformation
+
+** use forward.namd and backward.namd file to run the free energy perturbation simulation of T113A transformation in the MPro-Nanobody complex
+
+
+
+

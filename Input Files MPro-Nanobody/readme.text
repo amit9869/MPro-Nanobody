@@ -1,0 +1,75 @@
+For the Classical Molecular Dynamics (MD) and Free Energy Perturbation (FEP) calculation, separate directories are utiliaed. The directories starting with "FEP" specifically correspond to the free energy perturbation calculation for the a particular mutation. We have provided files for Alanine (FEP_T113A) and Glycine (FEP_L107G) mutations in two separate dircetories.
+
+######################################
+Classical MD directory
+######################################
+This directory has following files:
+
+ionized1.pdb; reference coordinates for the MPro-Nanobody complex
+
+ionized1.psf; contains partial charges of each atom for the MPro-Nanobody complex
+
+
+par_all36_na_ion_wat.prm; water parameters
+
+par_all36_prot.prm; protein parameters
+
+
+setup.namd; NAMD ADJUSTABLE PARAMETERS
+
+** use setup.namd file to run the classical MD simulation of the MPro-Nanobody complex
+
+
+
+######################################
+FEP_T113A directory (Alanine Mutation)
+######################################
+equil.coor;coordinates for the MPro-Nanobody/T113A complex
+equil.vel; velocity from the previously equilibrated step
+
+T113A.fep; reference coordinates for FEP calculation
+
+T113A.psf; contains partial charges of each atom for the MPro-Nanobody/T113A complex
+
+
+par_all36_na_ion_wat.prm; water parameters
+
+par_all36_prot.prm; protein parameters
+
+
+forward.namd; NAMD ADJUSTABLE PARAMETERS for fowarad  transformation
+backward.namd; NAMD ADJUSTABLE PARAMETERS for fowarad  transformation
+
+** use forward.namd and backward.namd file to run the free energy perturbation simulation of T113A transformation in the MPro-Nanobody complex
+
+
+
+
+######################################
+FEP_L107G directory (Glycine Mutation)
+######################################
+equil.coor;coordinates for the MPro-Nanobody/L107G complex
+equil.vel; velocity from the previously equilibrated step
+
+L107G.fep; reference coordinates for FEP calculation
+
+L107G.psf; contains partial charges of each atom for the MPro-Nanobody/L107G complex
+
+
+par_all36_na_ion_wat.prm; water parameters
+
+par_all36_prot.prm; protein parameters
+
+
+forward.namd; NAMD ADJUSTABLE PARAMETERS for fowarad  transformation
+backward.namd; NAMD ADJUSTABLE PARAMETERS for fowarad  transformation
+
+** use forward.namd and backward.namd file to run the free energy perturbation simulation of L107G transformation in the MPro-Nanobody complex
+
+
+
+
+
+
+
+
